@@ -32,6 +32,9 @@
 				  	<password>Eaiesb123</password>
 				  	<applicationName>helloworld-4</applicationName>
 				  	<environment>Sandbox</environment>
+					   <properties>
+						<env>${env}</env>
+					   </properties>
 					</cloudHubDeployment>
 				<classifier>mule-application</classifier>	
 				</configuration>
